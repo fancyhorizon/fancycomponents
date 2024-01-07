@@ -1,0 +1,25 @@
+{
+  "name": "adventure-components",
+  "description": "The web components used by Adventure Horizon",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "cattynip <hi@cattynip.dev>",
+  "main": "dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adventurehorizon/adventure-components.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
